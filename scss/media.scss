@@ -1,0 +1,165 @@
+@media (max-width: 1010px){
+	.search-form__input {
+		max-width: 120px;
+	}
+}
+
+@media (max-width: $tablet-width){
+	.main-nav__list {
+		max-width: unset;
+		font-size: 13.5px;
+	}
+
+	.search-form {
+		&__input {
+			display: none;
+		}
+
+		&__button {
+			right: -15px;
+		}
+	}
+
+	.news__content {
+		width: 95%;
+	}
+
+	.news-item__subtitle {
+		min-height: 40px;
+	}
+
+	.footer-links__content {
+		width: 95%;
+		font-size: 12px; 
+	}
+
+	.main-nav__item {
+		margin: 0 5px;
+	}
+}
+
+@media (max-width: $mobile-width){
+	.language-picker {
+		display: none;
+	}
+
+	.header-menu-button {
+		display: inline-block;
+		font-size: 20px;
+    	display: inline-block;
+    	padding: 0 5px;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	.search-form__button {
+		right: unset;
+		top: 2px;
+	}
+
+	.main-nav {
+		display: none;
+	}
+
+	.main-nav.enabled {
+		display: block;
+	}
+	
+	.main-nav__list {
+		display: block;
+		text-align: center;
+	}
+
+	.main-nav__item {
+		padding: 7px 0;
+	}
+
+	.header-nav__item-home {
+		display: none;
+	}
+	
+	.footer-icons__socials {
+		width: 100%;
+		justify-content: center;
+
+		&::after {
+			display: none;
+		}
+	}
+
+	.footer-icons__payments {
+		display: none;
+	}
+
+	.footer-icons.mobile {
+		display: block;
+	}
+
+	.footer-icons.mobile {
+		& .footer-icons__payments {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			padding: 5px;
+		}
+
+		& .footer-icons__payment-item {
+			padding: 0 5px;
+		}
+	} 
+
+	.footer-links {
+		&__title {
+			padding: 5px 0;
+		}
+
+		&__content {
+			display: block;
+		}
+
+		&__list {
+			display: none;
+		}
+
+		&__list.enabled {
+			display: block;
+		}
+
+		&__mobile-toogle-button {
+			font-size: 17px; 
+			display: inline;
+			float: right;
+			padding-right: 10px;
+			font-weight: 700;
+		}
+	}
+
+	.discounts__item:nth-child(n+2) {
+		display: none;
+	}
+
+	.news .slick-prev {
+	    left: -10px;
+	    z-index: 100;
+	    background: rgba(0,0,0,0.5);
+	    width: 40px;
+	    height: 40px;
+	    top: 40%;
+	}
+
+	.news .slick-next {
+	    right: -10px;
+	    z-index: 100;
+	    background: rgba(0,0,0,0.5);
+	    width: 40px;
+	    height: 40px;
+	    top: 40%;
+	}
+
+	.news .slick-next:hover,
+	.news .slick-prev:hover
+	{
+		background: rgba(0,0,0,0.5);
+	}
+}

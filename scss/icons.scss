@@ -1,0 +1,45 @@
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-basecamp:before {
+  content: "\eab2";
+}
+.icon-tumblr:before {
+  content: "\eab9";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-pinterest2:before {
+  content: "\ead2";
+}

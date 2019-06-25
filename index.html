@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nothingbutstyle</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body class="index-page">
+  <header class="header">
+  <div class="upper-header">
+    <div class="upper-header__left-wrapper">
+      <div class="language-picker">
+        <div class="language-picker__current-language"><img src="img/uk.png" alt="English"></div>
+        <div class="language-picker__button" onclick="toggleLanguageMenu()"></div>
+        <div class="language-picker__other-languages">
+          <div class="language-picker__language"><img src="img/es.png" alt="Español"></div>
+          <div class="language-picker__language"><img src="img/fr.png" alt="Français"></div>
+        </div>
+      </div>
+      <div class="header-menu-button icon-menu" onclick="toggleMainMenu()"></div>
+      <div class="search-form">
+        <input class="search-form__input" placeholder="Search">
+        <button class="search-form__button icon-search"></button>
+      </div>
+    </div>
+    <div class="upper-header__center-wrapper">
+      <div class="logo">
+        <img class="logo__image" src="img/logo.png">
+      </div>
+    </div>
+    <div class="upper-header__right-wrapper">
+      <ul class="header-nav">
+        <li class="header-nav__item header-nav__item-home"><a href="#" class="header-nav__link icon-user"></a></li>
+        <li class="header-nav__item header-nav__item-favs"><a href="#" class="header-nav__link icon-heart"></a></li>
+        <li class="header-nav__item header-nav__item-cart"><a href="#" class="header-nav__link icon-cart"></a></li>
+      </ul>
+    </div>
+  </div>  
+  <nav class="main-nav">
+    <ol class="main-nav__list">
+      <li class="main-nav__item"><a class="main-nav__link" href="#">New in</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#">Clothing</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#">Dresses</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#">Tops</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#">Denim</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#">Sale</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#">Trend</a></li>
+    </ol>
+  </nav>
+  </header>
+  <main class="main">
+    <section class="discounts">
+      <div class="discounts__content">
+        <a class="discounts__item">Free uk click & collect <span class="discounts__subtitle">on order over &pound;30</span></a>
+        <a class="discounts__item">Dress from &pound;18 <span class="discounts__subtitle">shop now</span></a>
+        <a class="discounts__item">20% student discount <span class="discounts__subtitle">excludes sale, shop now</span></a>
+      </div>
+    </section>
+    <section class="wallpaper">
+      <a href="#" class="wallpaper__button">Shop to be one</a>
+    </section>
+    <section class="delivery">
+      <p class="delivery__text">Unlimited next day delivery for a year — just &pound;9.99</p>
+    </section>
+    <section class="categories">
+      <div class="categories__wrapper">
+        <h2 class="categories__title">Shop by category</h2>
+        <div class="categories__list">
+          <div class="category">
+            <a class="category__image-wrapper" href="#"><img src="https://via.placeholder.com/270x320/efcdce?text=Dresses" alt="Dresses" class="category__image"></a>
+            <a class="category__link" href="#">Dresses</a>
+          </div>
+          <div class="category">
+            <a class="category__image-wrapper" href="#"><img src="https://via.placeholder.com/270x320/efcdce?text=Tops" alt="Tops" class="category__image"></a>
+            <a class="category__link" href="#">Tops</a>
+          </div>
+          <div class="category">
+            <a class="category__image-wrapper" href="#"><img src="https://via.placeholder.com/270x320/efcdce?text=Jeans" alt="Jeans" class="category__image"></a>
+            <a class="category__link" href="#">Jeans</a>
+          </div>
+          <div class="category">
+            <a class="category__image-wrapper" href="#"><img src="https://via.placeholder.com/270x320/efcdce?text=Coats+Jackets" alt="Jeans & Jackets" class="category__image"></a>
+            <a class="category__link" href="#">Jeans & Jackets</a>
+          </div>
+          <div class="category">
+            <a class="category__image-wrapper" href="#"><img src="https://via.placeholder.com/270x320/efcdce?text=Loungewear" alt="Loungewear" class="category__image"></a>
+            <a class="category__link" href="#">Loungewear</a>
+          </div>
+          <div class="category">
+            <a class="category__image-wrapper" href="#"><img src="https://via.placeholder.com/270x320/efcdce?text=Bodysuits" alt="Bodysuits" class="category__image"></a>
+            <a class="category__link" href="#">Bodysuits</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="news__content">
+        <div class="news-item">
+          <a class="news-item__image-wrapper" href="#">
+            <img src="https://via.placeholder.com/390x500/efcdce?text=Shop+new" alt="" class="news-item__image">
+          </a>
+          <div class="news-item__title">All about new new?</div>
+          <div class="news-item__subtitle">All about newnew all about that newnew</div>
+          <a class="news-item__button">Shop new</a>
+        </div>
+        <div class="news-item">
+          <a class="news-item__image-wrapper" href="#">
+            <img src="https://via.placeholder.com/390x500/efcdce?text=Shop+dresses" alt="" class="news-item__image">
+          </a>
+          <div class="news-item__title">Take the blunge</div>
+          <div class="news-item__subtitle">Take the blunge take the blunge</div>
+          <a class="news-item__button">Shop dresses</a>
+        </div>
+        <div class="news-item">
+          <a class="news-item__image-wrapper" href="#">
+            <img src="https://via.placeholder.com/390x500/efcdce?text=Shop+demin" alt="" class="news-item__image">
+          </a>
+          <div class="news-item__title">Update your denim</div>
+          <div class="news-item__subtitle">Update your denim update your denim</div>
+          <a class="news-item__button">Shop demin</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <section class="footer-icons">
+      <div class="footer-icons__wrapper">
+        <ul class="footer-icons__socials">
+          <li class="footer-icons__social-item"><a href="#" class="footer-icons__social-link icon-facebook"></a></li>
+          <li class="footer-icons__social-item"><a href="#" class="footer-icons__social-link icon-linkedin2"></a></li>
+          <li class="footer-icons__social-item"><a href="#" class="footer-icons__social-link icon-tumblr"></a></li>
+          <li class="footer-icons__social-item"><a href="#" class="footer-icons__social-link icon-basecamp"></a></li>
+          <li class="footer-icons__social-item"><a href="#" class="footer-icons__social-link icon-pinterest2"></a></li>
+        </ul>
+      <!-- </div> -->
+      <!-- <div class="footer-icons__wrapper"> -->
+        <ul class="footer-icons__payments">
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/162688" alt="Visa"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/ff5f01" alt="Master Card"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/4085be" alt="PayPal"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/002664" alt="AMEX"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/0a0a08" alt="Apple pay"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/7276cf" alt="Maestro"></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="footer-links">
+      <div class="footer-links__content">
+        <div class="footer-links__column footer-links__help">
+          <div class="footer-links__title">Help <span class="footer-links__mobile-toogle-button" onclick="toggleFooterMenu('footerMenu-1')">+</span></div>
+          <ul class="footer-links__list" id="footerMenu-1">
+            <li class="footer-links__item"><a class="footer-links__link" href="#">Size Guide</a></li>
+            <li class="footer-links__item"><a class="footer-links__link" href="#">Delivery Information</a></li>
+            <li class="footer-links__item"><a class="footer-links__link" href="#">Returnes</a></li>
+            <li class="footer-links__item"><a class="footer-links__link" href="#">FAQ's</a></li>
+            <li class="footer-links__item"><a class="footer-links__link" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-links__column footer-links__delivery">
+          <div class="footer-links__title">Delivery <span class="footer-links__mobile-toogle-button" onclick="toggleFooterMenu('footerMenu-2')">+</span></div>
+          <ul class="footer-links__list" id="footerMenu-2">
+            <li class="footer-links__item">UK Standard <span class="footer-links__item-price">Free</span></li>
+            <li class="footer-links__item">UK Next Working Day <span class="footer-links__item-price">&pound;3.99</span></li>
+            <li class="footer-links__item">UK Saturday <span class="footer-links__item-price">&pound;6.99</span></li>
+            <li class="footer-links__item">USA Standart <span class="footer-links__item-price">Free</span></li>
+            <li class="footer-links__item">Europe <span class="footer-links__item-price">&pound;2.99</span></li>
+            <li class="footer-links__item">Rest of the World <span class="footer-links__item-price">&pound;3.99</span></li>
+          </ul>
+        </div>
+        <div class="footer-links__column footer-links__information">
+          <div class="footer-links__title">Information <span class="footer-links__mobile-toogle-button" onclick="toggleFooterMenu('footerMenu-3')">+</span></div>
+          <ul class="footer-links__list" id="footerMenu-3">
+            <li class="footer-links__item"><a class="footer-links__link" href="#">About Us</a></li>
+            <li class="footer-links__item"><a class="footer-links__link" href="#">Blog</a></li>
+            <li class="footer-links__item"><a class="footer-links__link" href="#">Terms & Conditions</a></li>
+            <li class="footer-links__item"><a class="footer-links__link" href="#">Privacy Policy</a></li>
+            <li class="footer-links__item"><a class="footer-links__link" href="#">Cookies</a></li>
+            <li class="footer-links__item"><a class="footer-links__link" href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="footer-icons mobile">
+      <div class="footer-icons__wrapper">
+        <ul class="footer-icons__payments">
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/162688" alt="Visa"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/ff5f01" alt="Master Card"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/4085be" alt="PayPal"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/002664" alt="AMEX"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/0a0a08" alt="Apple pay"></a></li>
+          <li class="footer-icons__payment-item"><a href="#" class="footer-icons__payment-link"><img src="https://via.placeholder.com/38x24/7276cf" alt="Maestro"></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="copyright">
+      <div class="copyright__text">&copy; 2018 Nothingbutstyle.com</div>
+    </section>
+  </footer>
+  <script src="scripts/jquery-3.4.1.min.js"></script> <!-- For sliders -->
+  <script src="scripts/slick.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
